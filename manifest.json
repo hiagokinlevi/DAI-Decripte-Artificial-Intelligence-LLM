@@ -1,0 +1,20 @@
+[
+  {
+    "paper": "dai",
+    "language": "en",
+    "file": "papers/DAI-llm-en.pdf",
+    "sha256": "b7a51018b3ad0a4a1d26525b3cae947442fbcb641ae50fe662b0e90ba261ae79",
+    "bytes": 1274836,
+    "pages": 24,
+    "doi": "10.5281/zenodo.23089652"
+  },
+  {
+    "paper": "dai",
+    "language": "pt",
+    "file": "papers/DAI-llm-pt.pdf",
+    "sha256": "3984170a00c9434cdb1651785a6c1350caaa879e186c588ae5c885ba8792fde3",
+    "bytes": 1301806,
+    "pages": 25,
+    "doi": "10.5281/zenodo.23089652"
+  }
+]

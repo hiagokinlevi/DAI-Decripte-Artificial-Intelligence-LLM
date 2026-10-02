@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://hiagokinlevi.github.io/dai-paper/sitemap.xml
