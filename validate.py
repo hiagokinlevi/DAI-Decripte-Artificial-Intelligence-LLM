@@ -57,6 +57,13 @@ def main():
             url = urlparse(value)
             if value.startswith(PREFIX):
                 target = ROOT / unquote(url.path.split(f'/{REPO}/', 1)[1])
+            elif url.netloc == 'hiagokinlevi.github.io' and url.path.split('/')[1] in ['dai-paper', 'adai-paper']:
+                companion = url.path.split('/')[1]
+                relative = '/'.join(url.path.split('/')[2:])
+                sibling = ROOT.parent / f'{companion}-public'
+                if not sibling.exists():
+                    continue
+                target = sibling / unquote(relative)
             elif not url.scheme and not url.netloc:
                 target = path.parent / unquote(url.path) if url.path else path
             else:
