@@ -1,0 +1,66 @@
+{
+  "author": "Hiago Kin Levi",
+  "affiliation": "Decripte",
+  "publicationDate": "2026-10-01",
+  "version": "1.0",
+  "status": "Preprint; not represented as peer-reviewed",
+  "rights": "All rights reserved",
+  "papers": {
+    "dai": {
+      "doi": "10.5281/zenodo.23089652",
+      "file": "DAI-llm",
+      "pages": {
+        "en": 24,
+        "pt": 25
+      },
+      "title": {
+        "en": "DAI: A Domain-Specific LLM with Model-Excluded Authority, Capability-Disjoint Verification, and Recomputable Receipts",
+        "pt": "DAI: uma LLM de domínio específico com autoridade excluída do modelo, verificação por capacidades disjuntas e recibos recomputáveis"
+      },
+      "label": {
+        "en": "The LLM and its defensive architecture",
+        "pt": "A LLM e sua arquitetura defensiva"
+      },
+      "short": {
+        "en": "A proprietary domain-specific language model within a governed defensive architecture. Execution authority stays outside learned output; actions are bounded, independently observed and recorded in recomputable receipts.",
+        "pt": "Uma LLM própria de domínio específico inserida em uma arquitetura defensiva governada. A autoridade de execução fica fora da saída aprendida; as ações são delimitadas, observadas por capacidade disjunta e registradas em recibos recomputáveis."
+      },
+      "abstract": {
+        "en": "DAI (Decripte Artificial Intelligence) is a proprietary domain-specific LLM within a governed autonomous defensive architecture. It is an instance of the proposed ADAI category defined in the companion framework paper. The paper describes incident-response sessions spanning signal curation, structured target extraction, reviewed playbook selection, declared action contracts, deterministic admissibility, bounded network-edge execution, capability-disjoint verification, hash-linked evidence sealing, scheduled review, reconciliation and undo. The learned model is trained on the system’s own outcome-verified transcripts and narrates the result; admissibility and execution authority remain structurally outside the model. The paper addresses per-principal containment within shared enforcement domains, rule-budget aggregation, element-identified reconciliation, independent receipt recomputation and exact localization of controlled tampering. Reported measurements refer to the version and period described in the manuscript and are not a claim of universal performance.",
+        "pt": "DAI (Decripte Artificial Intelligence) é uma LLM própria de domínio específico inserida em uma arquitetura de defesa autônoma governada. É uma instância da categoria proposta ADAI, definida no paper complementar. O trabalho descreve sessões de resposta a incidentes que passam por curadoria do sinal, extração estruturada de alvos, seleção de playbooks revisados, contratos de ação declarados, admissibilidade determinística, execução delimitada na borda de rede, verificação por capacidades disjuntas, selagem de evidências encadeadas por hash, revisão agendada, reconciliação e reversão. O modelo aprende com transcrições próprias com resultados verificados e narra o resultado; a admissibilidade e a autoridade de execução permanecem estruturalmente fora do modelo. O paper aborda contenção por principal em domínios compartilhados, agregação sob limites de regras, reconciliação por elemento, recomputação de recibos e localização exata de alterações controladas. As medições correspondem à versão e ao período descritos no manuscrito, sem alegação de desempenho universal."
+      },
+      "sections": [
+        "Architecture and episode flow",
+        "The action envelope",
+        "Evidence and independent recomputation",
+        "Principal-scoped containment",
+        "Review, reconciliation and testimony",
+        "Tokenizer, causal Transformer and training",
+        "Observed failure classes",
+        "Production measurements and limitations"
+      ]
+    }
+  },
+  "keywords": [
+    "autonomous cyber defense",
+    "autonomous defensive artificial intelligence",
+    "ADAI",
+    "DAI",
+    "domain-specific LLM",
+    "large language models",
+    "AI security",
+    "incident response",
+    "model-excluded authority",
+    "action envelope",
+    "capability-disjoint verification",
+    "tamper-evident receipts",
+    "tenant isolation",
+    "principal-scoped containment",
+    "element-level reconciliation",
+    "causal Transformer",
+    "outcome-verified training",
+    "verifiable evidence",
+    "reversibility",
+    "cybersecurity research"
+  ]
+}
