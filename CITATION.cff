@@ -1,10 +1,10 @@
 # Copyright (c) 2026 Hiago Kin Levi. All rights reserved. SPDX-License-Identifier: LicenseRef-Proprietary
 cff-version: 1.2.0
 message: "Please cite the research preprint using its DOI."
-title: "DAI publication repository"
+title: "DAI — Decripte Artificial Intelligence: A Domain-Specific LLM"
 version: "1.0"
 date-released: "2026-10-01"
-url: "https://hiagokinlevi.github.io/dai-paper/"
+url: "https://hiagokinlevi.github.io/DAI-Decripte-Artificial-Intelligence-LLM/"
 authors:
   - family-names: "Levi"
     given-names: "Hiago Kin"
