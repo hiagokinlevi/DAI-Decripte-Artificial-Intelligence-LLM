@@ -1,16 +1,16 @@
 <!-- Copyright (c) 2026 Hiago Kin Levi. All rights reserved. SPDX-License-Identifier: LicenseRef-Proprietary -->
-# DAI research paper
+# DAI — Decripte Artificial Intelligence: A Domain-Specific LLM
 
 Public DAI manuscripts and a bilingual research website by **Hiago Kin Levi**, Decripte.
 
-**Website:** https://hiagokinlevi.github.io/dai-paper/
+**Website:** https://hiagokinlevi.github.io/DAI-Decripte-Artificial-Intelligence-LLM/
 
 ## Papers
 
 | Paper | DOI | Manuscripts |
 | --- | --- | --- |
-| ADAI: Autonomous Defensive AI | [10.5281/zenodo.23089594](https://doi.org/10.5281/zenodo.23089594) | [English](https://hiagokinlevi.github.io/adai-paper/papers/ADAI-framework-en.pdf), [Portuguese](https://hiagokinlevi.github.io/adai-paper/papers/ADAI-framework-pt.pdf) |
-| DAI: A Domain-Specific LLM | [10.5281/zenodo.23089652](https://doi.org/10.5281/zenodo.23089652) | [English](https://hiagokinlevi.github.io/dai-paper/papers/DAI-llm-en.pdf), [Portuguese](https://hiagokinlevi.github.io/dai-paper/papers/DAI-llm-pt.pdf) |
+| ADAI: Autonomous Defensive AI | [10.5281/zenodo.23089594](https://doi.org/10.5281/zenodo.23089594) | [English](https://hiagokinlevi.github.io/ADAI-Autonomous-Defensive-Artificial-Intelligence/papers/ADAI-framework-en.pdf), [Portuguese](https://hiagokinlevi.github.io/ADAI-Autonomous-Defensive-Artificial-Intelligence/papers/ADAI-framework-pt.pdf) |
+| DAI: A Domain-Specific LLM | [10.5281/zenodo.23089652](https://doi.org/10.5281/zenodo.23089652) | [English](https://hiagokinlevi.github.io/DAI-Decripte-Artificial-Intelligence-LLM/papers/DAI-llm-en.pdf), [Portuguese](https://hiagokinlevi.github.io/DAI-Decripte-Artificial-Intelligence-LLM/papers/DAI-llm-pt.pdf) |
 
 DAI is the proprietary domain-specific LLM within a governed defensive architecture. ADAI names the proposed technical category and formal framework. The two are not interchangeable. Original technical bodies are preserved in the mirrored PDFs.
 

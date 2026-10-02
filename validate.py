@@ -8,7 +8,7 @@ from urllib.parse import urlparse, unquote
 from xml.etree import ElementTree
 
 ROOT = Path(__file__).resolve().parent
-REPO = ROOT.name.replace('-public', '')
+REPO = json.loads((ROOT / 'papers.json').read_text())['repositoryName']
 PREFIX = f'https://hiagokinlevi.github.io/{REPO}/'
 
 
@@ -57,10 +57,11 @@ def main():
             url = urlparse(value)
             if value.startswith(PREFIX):
                 target = ROOT / unquote(url.path.split(f'/{REPO}/', 1)[1])
-            elif url.netloc == 'hiagokinlevi.github.io' and url.path.split('/')[1] in ['dai-paper', 'adai-paper']:
+            elif url.netloc == 'hiagokinlevi.github.io' and url.path.split('/')[1] in ['DAI-Decripte-Artificial-Intelligence-LLM', 'ADAI-Autonomous-Defensive-Artificial-Intelligence']:
                 companion = url.path.split('/')[1]
                 relative = '/'.join(url.path.split('/')[2:])
-                sibling = ROOT.parent / f'{companion}-public'
+                sibling_names = {'DAI-Decripte-Artificial-Intelligence-LLM': 'dai-paper-public', 'ADAI-Autonomous-Defensive-Artificial-Intelligence': 'adai-paper-public'}
+                sibling = ROOT.parent / sibling_names[companion]
                 if not sibling.exists():
                     continue
                 target = sibling / unquote(relative)
