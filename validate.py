@@ -45,6 +45,10 @@ def main():
     documents = {}
     for path in files:
         text = path.read_text()
+        if re.fullmatch(r'google[0-9a-f]+\.html', path.name):
+            if text.strip() != f'google-site-verification: {path.name}':
+                errors.append(f'Invalid ownership verification: {path.name}')
+            continue
         parsed = Document()
         parsed.feed(text)
         documents[path.resolve()] = parsed
@@ -89,7 +93,7 @@ def main():
                 errors.append(f'Missing academic metadata: {slug}')
     if errors:
         raise SystemExit('\n'.join(errors))
-    print(f'PASS: {len(files)} pages, local links, fragments, academic metadata, XML and manuscript checksums')
+    print(f'PASS: {len(documents)} pages, ownership verification, local links, fragments, academic metadata, XML and manuscript checksums')
 
 
 if __name__ == '__main__':
