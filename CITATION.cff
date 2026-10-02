@@ -1,0 +1,23 @@
+# Copyright (c) 2026 Hiago Kin Levi. All rights reserved. SPDX-License-Identifier: LicenseRef-Proprietary
+cff-version: 1.2.0
+message: "Please cite the research preprint using its DOI."
+title: "DAI publication repository"
+version: "1.0"
+date-released: "2026-10-01"
+url: "https://hiagokinlevi.github.io/dai-paper/"
+authors:
+  - family-names: "Levi"
+    given-names: "Hiago Kin"
+preferred-citation:
+  type: generic
+  title: "DAI: A Domain-Specific LLM with Model-Excluded Authority, Capability-Disjoint Verification, and Recomputable Receipts"
+  authors:
+    - family-names: "Levi"
+      given-names: "Hiago Kin"
+  year: 2026
+  month: 10
+  doi: "10.5281/zenodo.23089652"
+  url: "https://doi.org/10.5281/zenodo.23089652"
+  publisher:
+    name: "Zenodo"
+  notes: "Version 1.0. Research preprint, not represented as peer-reviewed."

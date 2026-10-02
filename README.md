@@ -20,6 +20,8 @@ DAI is the proprietary domain-specific LLM within a governed defensive architect
 - The twelve mechanisms: AC, MEA, ACO, EBT, PPB, DSC, SAV, SSC, PPR, ELR, RBT and SRL.
 - Model construction, architecture, reported observations and explicit limitations.
 - DOI links, academic citation metadata, JSON-LD, canonical and language-alternate links.
+- Related research with contextual links, without claims of endorsement or integration.
+- GitHub preferred citation (CITATION.cff).
 - BibTeX and RIS citations, Atom feed, XML sitemap and SHA-256 file manifest.
 - Public records on Zenodo, DataCite, OpenAIRE and Academia.edu, plus the educational-resource listing.
 
