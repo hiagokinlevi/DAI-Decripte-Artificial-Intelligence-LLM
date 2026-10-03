@@ -25,7 +25,7 @@ DAI is the proprietary domain-specific LLM within a governed defensive architect
 - BibTeX and RIS citations, Atom feed, XML sitemap and SHA-256 file manifest.
 - Public records on Zenodo, DataCite, OpenAIRE and Academia.edu, plus the educational-resource listing.
 
-These are version 1.0 preprints prepared on 1 October 2026, not represented as peer-reviewed. Formal results depend on stated assumptions; historical observations are not universal performance guarantees. U.S. provisional application 64/166,855 is patent pending, not granted. No third-party endorsement is asserted.
+These are version 1.0 preprints prepared on 1 October 2026, not represented as peer-reviewed. Formal results depend on stated assumptions; historical observations are not universal performance guarantees. No third-party endorsement is asserted.
 
 ## Website
 
@@ -35,6 +35,6 @@ Run `python3 validate.py` to verify local links, manuscript checksums, structure
 
 ## Rights and updates
 
-All rights reserved. Public availability is not an open-source license and grants no rights to proprietary implementation, model weights or patent claims. This repository contains only public publications and the website; it does not contain the DAI implementation, patent intake materials, private receipts or credentials. Changes to manuscripts must be versioned consistently with their DOI records. Edit public HTML and metadata together and validate before publishing.
+All rights reserved. Public availability is not an open-source license and grants no rights to proprietary implementation or model weights. This repository contains the public research manuscripts, citations, glossary and website. Changes to manuscripts must be versioned consistently with their DOI records. Edit public HTML and metadata together and validate before publishing.
 
 Contact: hiago@decripte.us
