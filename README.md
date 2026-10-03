@@ -14,6 +14,10 @@ Public DAI manuscripts and a bilingual research website by **Hiago Kin Levi**, D
 
 DAI is the proprietary domain-specific LLM within a governed defensive architecture. ADAI names the proposed technical category and formal framework. The two are not interchangeable. Original technical bodies are preserved in the mirrored PDFs.
 
+## Cybersecurity research guides
+
+Read the [English guide](https://hiagokinlevi.github.io/DAI-Decripte-Artificial-Intelligence-LLM/cybersecurity-llm-incident-response.html) or [Portuguese guide](https://hiagokinlevi.github.io/DAI-Decripte-Artificial-Intelligence-LLM/pt/cybersecurity-llm-incident-response.html) for the connection to autonomous defensive AI, cybersecurity LLMs, information security, adversarial inputs and governed incident response. These explain the published papers and their limits; they do not introduce new experimental claims.
+
 ## Contents and discovery
 
 - English and Portuguese manuscript landing pages and searchable HTML reading views.
@@ -23,7 +27,7 @@ DAI is the proprietary domain-specific LLM within a governed defensive architect
 - Related research with contextual links, without claims of endorsement or integration.
 - GitHub preferred citation (CITATION.cff).
 - BibTeX and RIS citations, Atom feed, XML sitemap and SHA-256 file manifest.
-- Public records on Zenodo, DataCite, OpenAIRE and Academia.edu, plus the educational-resource listing.
+- Public records on Zenodo, OSF, OpenAlex, DataCite, OpenAIRE and Academia.edu, plus the educational-resource listing.
 
 These are version 1.0 preprints prepared on 1 October 2026, not represented as peer-reviewed. Formal results depend on stated assumptions; historical observations are not universal performance guarantees. No third-party endorsement is asserted.
 

@@ -61,7 +61,16 @@
     "outcome-verified training",
     "verifiable evidence",
     "reversibility",
-    "cybersecurity research"
+    "cybersecurity research",
+    "information security",
+    "cybersecurity LLM",
+    "governed incident response",
+    "AI-enabled attacks",
+    "prompt injection defenses"
   ],
-  "repositoryName": "DAI-Decripte-Artificial-Intelligence-LLM"
+  "repositoryName": "DAI-Decripte-Artificial-Intelligence-LLM",
+  "discoveryGuides": {
+    "en": "https://hiagokinlevi.github.io/DAI-Decripte-Artificial-Intelligence-LLM/cybersecurity-llm-incident-response.html",
+    "pt": "https://hiagokinlevi.github.io/DAI-Decripte-Artificial-Intelligence-LLM/pt/cybersecurity-llm-incident-response.html"
+  }
 }
