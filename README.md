@@ -5,6 +5,10 @@ Public DAI manuscripts and a bilingual research website by **Hiago Kin Levi**, D
 
 **Website:** https://hiagokinlevi.github.io/DAI-Decripte-Artificial-Intelligence-LLM/
 
+## Summaries in 15 languages
+
+Short introductions to both papers are available in [15 languages](https://hiagokinlevi.github.io/DAI-Decripte-Artificial-Intelligence-LLM/languages/en.html). The English and Portuguese PDFs remain the authoritative manuscripts.
+
 ## Papers
 
 | Paper | DOI | Manuscripts |
